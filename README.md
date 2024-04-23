@@ -82,13 +82,6 @@ The analysis provides insights into the HuffPost news headlines dataset, includi
 - Most important words for predicting news categories
 - Top keywords extracted from the headlines
 - Tech-specific keywords identified by the BERT model
-- 
+- The results are visualized using bar graphs and tables for easy interpretation.
 
-The results are visualized using bar graphs and tables for easy interpretation.
 
-# Acknowledgments
-
-- The HuffPost news headlines dataset is sourced from Kaggle.
-- The spaCy library is used for text preprocessing and named entity recognition.
-- The scikit-learn library is used for machine learning tasks.
-- The TensorFlow library is used for the BERT model.
