@@ -20,53 +20,47 @@ Copy
 
 The code in this repository performs the following tasks:
 
-# Data Cleaning:
+### Data Cleaning:
 
 - Handling missing values
 - Removing duplicates
 - Preprocessing text data
 
-# spaCy Preprocessing:
-
+### spaCy Preprocessing:
 - Tokenization
-- Lemmatization
-- Part-of-speech tagging
-- Named entity recognition
-
-# TF-IDF (Term Frequency-Inverse Document Frequency):
-
+- TF-IDF (Term Frequency-Inverse Document Frequency):
 - Converting text data into numerical features
 - Identifying important words in the headlines
 
-# Random Forest Feature Importance:
+### Random Forest Feature Importance:
 
 - Training a Random Forest classifier
 - Extracting feature importance scores
 - Identifying the most significant words in predicting news categories
 
-# Logistic Regression Coefficient:
+### Logistic Regression Coefficient:
 
 - Training a Logistic Regression model
 - Extracting the coefficients of the model
 - Identifying the most influential words for each news category
 
-# BERT Keyword Extractor:
+### BERT Keyword Extractor:
 
 - Using the BERT (Bidirectional Encoder Representations from Transformers) model
 - Extracting keywords from the news headlines
 - Identifying the most relevant keywords for each headline
 
-# BERT Tech Keyword Extractor:
+### BERT Tech Keyword Extractor:
 
 - Fine-tuning the BERT model for technology-related keywords
 - Extracting tech-specific keywords from the news headlines
 
-# Data Visualization:
+### Data Visualization:
 
 - Creating bar graphs to visualize the distribution of news categories
 - Generating tables to present the top keywords and their frequencies
 
-# Requirements
+### Requirements
 
 To run the code in this repository, you'll need the following dependencies:
 
@@ -79,14 +73,16 @@ To run the code in this repository, you'll need the following dependencies:
 - Matplotlib
 - Jupyter Notebook
 
-# Results
+# Brief purpose of the analysis 
 
+- The purpose of this analysis is to explore and gain insights from a dataset of HuffPost news headlines ranging from 2012 to 2022. By applying various natural language processing (NLP) techniques and machine learning algorithms, such as TF-IDF, Random Forest, Logistic Regression, and BERT, we aim to uncover patterns, trends, and key features within the news headlines. The analysis will provide a deeper understanding of the distribution of news categories, important words for predicting categories, and relevant keywords extracted from the headlines.
 The analysis provides insights into the HuffPost news headlines dataset, including:
 
 - Distribution of news categories
 - Most important words for predicting news categories
 - Top keywords extracted from the headlines
 - Tech-specific keywords identified by the BERT model
+- 
 
 The results are visualized using bar graphs and tables for easy interpretation.
 
